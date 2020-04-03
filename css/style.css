@@ -1,0 +1,263 @@
+h1, h2, h3, h4, p, a {
+  font-family:'Source Sans Pro', 
+}
+.card.mb-4.shadow-sm:active {
+  border: #0010ff 3px solid;
+}
+.card.mb-4.shadow-sm {
+  border:none;
+}
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  html {
+font-size: 14px;
+}
+html {
+font-size: 14px;
+}
+@media (min-width: 768px) {
+html {
+font-size: 16px;
+}
+}
+
+.container {
+max-width: 960px;
+}
+
+.pricing-header {
+max-width: 700px;
+}
+
+.card-deck .card {
+min-width: 220px;
+max-height:65%;
+}
+#buyheader {
+background-color: #fff;
+position: relative;
+max-width: 840px;
+padding: 0;
+}
+.buytopnav .step1.step1-selected, .buytopnav .step2.step2-selected {
+background: #E8E8E8 url("../img/step-1.png") right center no-repeat;
+    background-size: auto;
+color: #333;
+background-size: 30px 
+}
+#buy_steps .title {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 5px;
+background: #eee;
+color: #aaa;
+}
+#buy_steps .title span.text {
+display: inline-block;
+font-size: 16px;
+padding: 10px;
+}
+#buy_steps .title span.text .number {
+font-size: 1.4em;
+}
+#buy_steps .enabled .title {
+background: #9dc8e2;
+color: #fff;
+}
+#buy_steps .active .title {
+color: #fff;
+background: #2184be;
+}
+#due_now_total {
+cursor: pointer;
+position: relative;
+}
+#due_now_total a.expandbutton{
+position: absolute;
+right: 5px;
+text-decoration: none;
+font-size: 18px;
+color: #999;
+}
+#buyitnow_container .edit-plan {
+padding: 10px 10px 10px 30px;
+}
+.buyheader-tip {
+max-width: 840px;
+padding:0;
+}
+#buyheader {
+background-color: #fff;
+position: relative;
+max-width: 840px;
+padding:0;
+}
+#buyheader h2 {
+padding: 0;
+margin: 56px 0 24px;
+font-size: 32px;
+}
+.buytopnav {
+padding: 0;
+margin: 0;
+font-size: 0;
+border-radius: 4px;
+overflow:hidden;
+width: 840px;
+}
+.buytopnav li {
+list-style-type: none;
+padding: 0;
+display: inline-block;
+}
+.buytopnav .btn {
+font-size: 16px;
+text-align: left;
+line-height: 24px;
+padding: 14px 0 14px 30px;
+cursor: default;
+border-radius: 0;
+border: 0 none;
+color: #AAA;
+outline: 0 none;
+width: 280px;
+}
+.buytopnav .step1.step1-selected,
+.buytopnav .step2.step2-selected{
+background: #E8E8E8 url("../img/step-1.png") right center no-repeat;
+color: #333;
+background-size:30px auto;
+}
+.buytopnav .step1.step2-selected,
+.buytopnav .step2.step3-selected{
+background: #F8F8F8 url("../img/step-3.png") right center no-repeat;
+background-size:30px auto;
+}
+.buytopnav .step1.step3-selected,
+.buytopnav .step2.step1-selected{
+background: #F8F8F8 url("../img/step-3.png") right center no-repeat;
+background-size:30px auto;
+}
+.buytopnav .step3{
+background: #F8F8F8 none;
+}
+.buytopnav .step3.step3-selected{
+background: #E8E8E8 none;
+color: #333;
+}
+#buyheader ul.buytopnav li .btn.roomconnector {
+width: 294px;
+}
+#buyheader ul.buytopnav li.active .btn {
+color: rgb(88,90,92);
+font-weight: bold;
+border-color: rgb(178,180,182);
+}
+#buyheader ul.buytopnav li.active {
+border-bottom-color: rgb(45,165,255);
+}
+.graySelect{
+height: 52px;
+background: #E9E9E9;
+border-width: 0px;
+color:#333333;
+}
+.whiteUnselect{
+height: 52px;
+background: #f8f8f8;
+border-width: 0px;
+color:#AAAAAA;
+}
+.btn-block {
+display: block;
+width: auto;
+}
+.container-fluid.next {
+
+padding-right: 2rem;
+
+}
+
+/* condition for screen size maximum of 600px */
+@media (max-width:1100px) {
+
+  /* your conditional / responsive CSS inside this condition */
+
+  #showcase {
+    background-image:url('landing-mobile.png');
+    margin: 0px;
+	height:100vh;
+   
+  	
+}
+
+}
+@media(max-width: 580px){
+	img.rounded.float-right.sticker {
+    max-width: 90%;
+    position: absolute;
+  }
+  .telefono {
+    background: none;
+    border: none;
+    bottom: 0px;
+    right: 0px;
+    padding:0px;
+    max-width:40%;
+  }
+
+  img.rounded.mx-auto.d-block.logo {
+    background: none;
+    border: none;
+    max-width: 30%;
+}
+}
+@media (max-width:767px){
+  img.rounded.mx-auto.d-block.logo {
+    background: none;
+    border: none;
+    max-width: 30%;
+}
+.telefono {
+  background: none;
+  border: none;
+  bottom: 0px;
+  right: 0px;
+  padding: 0px;
+  max-width: 23%;
+  
+}
+img.rounded.float-right.sticker {
+  max-width: 80%;
+  position: absolute;
+  right: 0px;
+}
+}
+@media (max-width:674px){
+  img.rounded.mx-auto.d-block.logo {
+    background: none;
+    border: none;
+    max-width: 46%;
+}
+.telefono {
+  background: none;
+  border: none;
+  bottom: 0px;
+  right: 0px;
+  padding: 0px;
+  max-width: 50%;
+}
+}
